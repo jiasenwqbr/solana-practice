@@ -1,6 +1,6 @@
-[package]
-name = "solana-program-example"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
+[workspace]
+members=[
+     #basics
+    "basic/account-data/native/program",
+]
+resolver = "2"
