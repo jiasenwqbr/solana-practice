@@ -5,9 +5,8 @@
 ///
 use borsh::BorshSerialize;
 use solana_program::{
-    account_info::{self, next_account_info, Account, AccountInfo},
+    account_info::{next_account_info, AccountInfo},
     entrypoint::ProgramResult,
-    lamports,
     program::invoke,
     pubkey::Pubkey,
     rent::Rent,

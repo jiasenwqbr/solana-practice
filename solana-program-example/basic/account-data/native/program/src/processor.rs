@@ -29,7 +29,8 @@ pub fn process_instruction(
     // 处理指令数据
     // AddressInfo::try_from_slice(instruction_data)：尝试从指令数据中反序列化出一个 AddressInfo 结构体。如果成功，address_info 将包含反序列化后的数据。
     // if let Ok(address_info)：使用 if let 解构语法匹配反序列化结果。如果成功，执行块内代码。
-    // instructions::create::create_address_info(program_id, accounts, address_info)：调用 instructions::create 模块中的 create_address_info 函数，传递程序 ID、账户数组和反序列化后的地址信息。
+    // instructions::create::create_address_info(program_id, accounts, address_info)：
+    // 调用 instructions::create 模块中的 create_address_info 函数，传递程序 ID、账户数组和反序列化后的地址信息。
     if let Ok(address_info) = AddressInfo::try_from_slice(instruction_data) {
         return instructions::create::create_address_info(program_id, accounts, address_info);
     };
