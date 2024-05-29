@@ -17,7 +17,6 @@ class Assignable {
     });
   }
 }
-
 class AddressInfo extends Assignable {
   street: any;
   city: any;
