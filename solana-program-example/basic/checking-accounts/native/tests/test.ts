@@ -38,6 +38,7 @@ describe("checking account", async () => {
 
     await client.processTransaction(tx);
   });
+
   test("Check accounts", async () => {
     const blockhash = context.lastBlockhash;
     let ix = new TransactionInstruction({
