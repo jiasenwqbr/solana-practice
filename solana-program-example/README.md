@@ -1,11 +1,11 @@
-# [Program Examples](https://solana.com/docs/programs/examples)
+# Program Examples
 
 The "[Solana Program Examples](https://github.com/solana-developers/program-examples)" repository on GitHub offers several subfolders, each containing code examples for different Solana programming paradigms and languages, designed to help developers learn and experiment with Solana blockchain development.
 
 You can find the examples in the `solana-developers/program-examples` together with README files that explain you how to run the different examples. Most examples are self-contained and are available in native Rust (ie, with no framework), [Anchor](https://www.anchor-lang.com/docs/installation), [Seahorse](https://seahorse-lang.org/) and it also contains a list of examples that we would love to [see as contributions](https://github.com/solana-developers/program-examples?tab=readme-ov-file#examples-wed-love-to-see).
 Within the repo you will find the following subfolder, each with assorted example programs within them:
 
-- [Basics](https://solana.com/docs/programs/examples#basics)
+- [Basics](https://github.com/solana-developers/program-examples/tree/main/basics)
 - [Compression](https://solana.com/docs/programs/examples#compression)
 - [Oracles](https://solana.com/docs/programs/examples#oracles)
 - [Tokens](https://solana.com/docs/programs/examples#tokens)

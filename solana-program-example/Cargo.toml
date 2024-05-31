@@ -5,6 +5,7 @@ members=[
     "basic/account-data/account-data-anchor-program-example/programs/account-data-anchor-program-example", 
     "basic/checking-accounts/native/program",
     "basic/checking-accounts/anchor/checking-account/programs/checking-account",
+    "basic/close-account/native/prgram",
 
     
     

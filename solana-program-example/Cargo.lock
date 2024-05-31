@@ -621,6 +621,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "close-account-native-program"
+version = "0.1.0"
+dependencies = [
+ "borsh 0.9.3",
+ "borsh-derive 0.9.3",
+ "solana-program",
+]
+
+[[package]]
 name = "console_error_panic_hook"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
